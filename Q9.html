@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title id="CTF"></title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Font Awesome CSS CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css">
+      <!-- Google Webfont Loader -->
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js" async></script>
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <script type="text/javascript" src="jquery.flipcountdown.js"></script>
+      <link rel="stylesheet" type="text/css" href="jquery.flipcountdown.css" />
+      <link rel="stylesheet" type="text/css" href="css/ctfstyle.css" />
+      <script>
+         jQuery(function(){
+         var dt = new Date();
+         jQuery('#retroclockbox1').flipcountdown({
+         size:'sm',
+         beforeDateTime:'2/18/' + (dt.getFullYear()) + ' 00:00:01'
+         });
+         });
+      </script>
+      <script type="text/javascript" src="js/checkpage.js"></script>
+   </head>
+   <body onload="onpageload(9)">
+      <div class="container" style="margin:auto;">
+         <div style="text-align:center; color: #fff;" class="row">
+            <div class="col-md-3 tile">
+              <img id="" style="margin-top:20px; width:100%; height: 100%;"src="images/apptus_logo.png"></img>
+              <h3>Coding Event Sponsor</h3>
+            </div>
+            <div class="col-md-6 tile">
+               <h1 class="Title">Capture The Flag</h1>
+               <div id="retroclockbox1"></div>
+            </div>
+            <div class="col-md-3 tile">
+              <img style="margin-left: 160px;margin-top:20px; margin-right:10px; width:50%; height: 50%;"src="images/sparsh_logo.jpg"></img>
+               </div>
+            </div>
+         </div>
+         <div style="text-align:center; color: #fff;" class="row">
+            <div class="col-md-3 tile">
+               <h2>LEVEL : Medium</h2>
+            </div>
+            <div class="col-md-3 col-lg-offset-6 tile" onclick="logout()">
+               <h2>LOGOUT</h2>
+            </div>
+         </div>
+         <div style="text-align:center; color: #fff;" class="row">
+           <div class="col-md-3 tile">
+              <h2 class="QNo" id="QNo">Question : 9</h2>
+           </div>
+            <div class="col-md-6 tile">
+               <h2 class="QName" id="QName"></h2>
+            </div>
+            <div class="col-md-3 tile">
+               <h2 id="score">Total Score : </h2>
+            </div>
+         </div>
+         <div style="text-align:center;" class="row">
+            <div class="col-md-12 tile" id="event_body">
+               <img class="que" id = "que" src = "">
+               <br>
+               <form id="login-form" action="check_ans.php" method="post" role="form" style="display: block;" autocomplete="off">
+               <input type="hidden" name="que" value="9">
+               <input type="text" name="answer_user" id="answer_user" maxlength="50" />
+               <input type="submit" class="btn btn-warning"></input>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
