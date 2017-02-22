@@ -1,0 +1,59 @@
+#mainbox
+{
+ width:500px;
+ height:400px;
+ box-shadow: 5px 5px 5px #d3d3d3;
+ padding:30px;
+ position:absolute;
+ top:30%;
+ left:50%;
+ margin:-100px 0 0 -250px;
+ background-color:#f9f9f9;
+ border-style: solid;
+ border-color: #D3D3D3;
+ border-width:1px;
+}
+
+#mainbox_signup
+{
+ width:500px;
+ height:600px;
+ box-shadow: 5px 5px 5px #d3d3d3;
+ padding:30px;
+ position:absolute;
+ top:50%;
+ left:50%;
+ margin:-300px 0 0 -250px;
+ background-color:#f9f9f9;
+ border-style: solid;
+ border-color: #D3D3D3;
+ border-width:1px;
+}
+
+h1
+{
+ margin-left:170px;
+ margin-bottom:50px; 
+}
+
+label { float: left; width: 150px; margin-top:5px;}
+
+input[type=text] { float: left; width: 200px; height:30px;}
+
+input[type=password] { float: left; width: 200px; height:30px;}
+
+input[type=date] { float: left; width: 200px; height:30px;}
+
+input[type=submit] { margin-left:180px; padding:10px;}
+
+#usrname
+{
+ width:100px;
+ height:100px;
+ position:absolute;
+ top:50%;
+ left:50%;
+ margin:-50px 0 0 -50px;
+ float:left;
+} 
+

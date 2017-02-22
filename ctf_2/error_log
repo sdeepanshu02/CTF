@@ -1,0 +1,15 @@
+[14-Feb-2017 00:13:30 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 17
+[14-Feb-2017 00:20:20 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 17
+[14-Feb-2017 00:21:50 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 17
+[14-Feb-2017 00:31:26 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 17
+[14-Feb-2017 00:38:49 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 19
+[14-Feb-2017 00:40:57 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 20
+[14-Feb-2017 00:41:47 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 20
+[14-Feb-2017 00:42:39 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 21
+[14-Feb-2017 00:43:27 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 22
+[14-Feb-2017 00:43:51 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 22
+[14-Feb-2017 00:45:58 Asia/Calcutta] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/envy7/public_html/ctf17/reg.php on line 22
+[13-Feb-2017 19:25:17 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/envy7/public_html/ctf17/index.php on line 8
+[13-Feb-2017 19:25:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/envy7/public_html/ctf17/index.php on line 8
+[13-Feb-2017 19:25:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/envy7/public_html/ctf17/index.php on line 8
+[13-Feb-2017 19:26:41 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/envy7/public_html/ctf17/index.php on line 8
